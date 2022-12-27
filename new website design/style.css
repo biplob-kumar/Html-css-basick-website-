@@ -1,0 +1,337 @@
+/* default css  */
+
+/*  gogle front  */
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: .3s;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.container-full{
+    width: 100%;
+}
+.clear{
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.clearfix:after{
+content: "";
+display: block;
+clear: both;
+}
+/*  default css end  */
+/* header css start */
+.header-area{
+    background: linear-gradient(96deg, rgba(2,0,36,1) 0%, rgba(95,113,223,1) 0%, rgba(125,173,186,1) 100%, rgba(0,255,94,1) 100%, rgba(105,137,146,1) 100%, rgba(125,141,175,1) 100%, rgba(23,122,30,1) 100%, rgba(249,27,255,0.9164040616246498) 100%);
+}
+   
+   
+#nav{
+    
+}
+.nav-logo{
+    float: left;
+
+}
+.nav-logo a{
+    
+    font-size: 30px;
+    color: #222;
+    display: block;
+    padding: 20px 0 ;
+}
+.main-manu{
+    float: right;
+}
+.main-manu ul{}
+.main-manu ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.main-manu ul li a {
+    text-transform: uppercase;
+    display: block;
+    padding: 25px 0 ;
+    color: #222;
+    font-size: 16px;
+    
+}
+
+/*  ,amu css end  */
+/*  banner css start  */
+.banner{
+    background: url(./img/background\ img.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+   
+    
+}
+.dark-overlay{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+}
+.banner-text{
+    text-align: center;
+    padding: 180px 0;
+}
+.banner-text h4{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.banner-text h2{
+    color: whitesmoke;
+    margin-top: 30px;
+    font-size: 50px;
+}
+.banner-text h2 span{
+    color: rgb(227, 147, 17);
+}
+.banner-text a {
+    display: inline-block;
+   margin-top: 20px;
+    padding: 10px 20px ;
+    color: whitesmoke;
+    background-color: rgb(15, 85, 160);
+}
+#btn{
+    display: inline-block;
+    margin-top: 20px;
+     padding: 10px 20px ;
+     color: whitesmoke;
+     background-color: rgb(47, 45, 45);
+}
+
+/*  banner css end  */
+
+/*  about csss start  */
+
+ .about-content{
+    padding: 30px 0 ;
+ }
+ .about-content h2{
+    text-transform: uppercase;
+    font-size:50px;
+    text-align: center;
+    color: rgb(227, 147, 17);
+ }
+ .about-text{
+    padding-top: 100px;
+   float: left;
+   width: 48%;
+   
+ }
+ .about-text h3{
+    padding: 20px ;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #222;
+ }
+ .about-text p{
+    line-height: 26px;
+ }
+ .about-img{
+    padding-top: 30px;
+    float: right;
+    width: 48%;
+ }
+ .about-img img {
+border-radius: 10px;
+ }
+ .about-img img:hover{
+    background-color: red;
+ }
+ /*  about css end */
+
+
+
+ /*  service css start */
+
+ .service-content{
+    padding: 30px 0;
+ }
+ .service-content h2{
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(227, 147, 17);
+ }
+ .srvice-img{
+    background:url(./img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg) no-repeat ;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    width: 48%;
+    background-attachment: fixed;
+ }
+ .services-text{
+    padding: 70px 0 ;
+    float: right;
+    width: 45%;
+ }
+ .single-services{
+    margin-bottom: 50px ;
+ }
+ .single-services h3{
+    font-size: 30px;
+ }
+ .single-services h3 span{
+    color: rgb(227, 147, 17);
+ }
+ .single-services p{
+    color: rgb(138, 134, 129);
+ }
+
+ /*  service css end  */
+
+ /*  office section css start */
+ .office-content{
+    padding: 60px 0 ;
+ }
+ .office-content h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(227, 147, 17);
+    font-size: 45px;
+
+ }
+ .office-text{
+     margin-top: 80px;
+    float: left;
+    width: 48%;
+ }
+ .office-text h3 {
+    color: #222;
+    font-size: 22px;
+    padding-bottom: 25px;
+
+ }
+ .office-text  p {
+    font-size: 15px;
+    color: #222;
+    line-height: 26px;
+
+ }
+ .office-text  a {}
+ .office-img{
+    float: left;
+    width: 48%;
+ }
+ .office-img img{
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 5px;
+ }
+
+ /*  office section end  */
+ /*  contact section css start */
+ .contact-content{
+   display: inline-block;
+ }
+ .contact-content h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(227, 147, 17);
+    padding: 60px 0 ;
+    text-transform: uppercase;
+
+ }
+ .contact-form{
+
+    float: left;
+    width: 48%;
+ }
+  .contact-form{
+    margin-top: 50px;
+  }
+  .contact-form input{
+    width: 80%;
+    border: 1px solid #ddd;
+    padding: 13px ;
+    margin-bottom: 10px ;
+
+  }
+  .contact-form textarea{
+    width: 80%;
+    border: 1px solid #ddd;
+    padding: 13px ;
+    margin-bottom: 10px ;
+  }
+  .contact-form button{
+    padding: 10px 30px ;
+    background-color:rgb(227, 147, 17) ;
+    color: whitesmoke;
+    border: 0;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s;
+
+  }
+  .contact-form button:hover{
+    background-color: aliceblue;
+    color: black;
+  }
+
+ .contact-map{
+   float: left;
+   width: 48%;
+   
+ }
+
+ /*  contact section  end */
+
+ /*  footer css start */
+ .footer-section{
+    background-color: #222;
+    padding: 30px 0 ;
+    margin-top: 50px;
+   
+ }
+ .footer-content{
+
+ }
+ .footer-text{
+   
+ }
+ .footer-text p{
+    text-align: center;
+    color: whitesmoke;
+ }
+ .footer-icon{
+    text-align: center;
+ }
+ .footer-icon ul {}
+ .footer-icon ul li {
+    display: inline-block;
+ }
+ .footer-icon ul li a {
+    display: block;
+    padding: 5px 5px ;
+    color: white;
+   
+ }
+ .footer-icon ul li a  i {
+    color: rgb(76, 132, 234);
+    font-size: 20px;
+ }
+ .footer-icon ul li a  i:hover{
+   color: rgb(22, 97, 154);
+ }
